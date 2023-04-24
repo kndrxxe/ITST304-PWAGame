@@ -1,23 +1,24 @@
-body {
-  font-family: sans-serif;
-}
-
-/* Make content area fill the entire browser window */
-html,
-.fullscreen {
-  display: flex;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-/* Center the content in the browser window */
 .container {
-  margin: auto;
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
-.title {
-  font-size: 3rem;
+canvas {
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#controls {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+button {
+	margin: 5px;
 }
